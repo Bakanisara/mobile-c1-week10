@@ -1,5 +1,3 @@
-import 'package:dart_week10/staff.dart';
-
-void main() {
-  showStaffInfo();
+int calculate() {
+  return 6 * 7;
 }

@@ -6,17 +6,17 @@ class Staff {
   int? phone;
   //2.Constructor
   Staff(this.name, this.address, this.department, this.phone);
-  //3.Method/Function
+  //3.Method/function
   void staffInfo() {
-    print("Name of staff: $name");
-    print("Address of staff: $address");
-    print("Department of staff: $department");
-    print("Phone of staff: $phone");
+    print("Staff name is : $name");
+    print("Staff address is : $address");
+    print("Staff department is : $department");
+    print("Staff phone is : $phone");
   }
 }
 
 //Instance stf1 object
-void showStaffInfo() {
-  Staff stf1 = Staff("Mark Zuckerberg", "57/8", "IT-TRat", 0960537913);
+void showStafInfo() {
+  Staff stf1 = Staff("Mark Zuckerberg", "57/8", "IT-TRat", 038541210);
   stf1.staffInfo();
 }
